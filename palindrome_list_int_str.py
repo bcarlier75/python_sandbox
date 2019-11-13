@@ -1,11 +1,11 @@
-def pal_str(array):
+def pal_str(st):
     if st == st[::-1]:
         print("The string is a palindrome")
     else:
         print("Not a palindrome")
 
 
-def pal_list(array):
+def pal_list(arr):
     for i in range(0, int(len(arr) / 2)):
         if arr[i] != arr[len(arr) - 1 - i]:
             print("Not a palindrome")
